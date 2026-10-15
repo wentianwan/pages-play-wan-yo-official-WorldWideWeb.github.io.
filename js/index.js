@@ -16,7 +16,7 @@ let app = {
         init: function () {
             let that = this;
             $.ajax({
-                url: "https://api.wentianplay.com/api/settings.json",
+                url: "https://wentianwan.com/api/settings.json",
                 type: "get",
                 dataType: "json",
                 success: function (data) {
@@ -32,7 +32,7 @@ let app = {
             })
 
             $.ajax({
-                url: "https://api.wentianplay.com/api/sites.json",
+                url: "https://wentianwan.com/api/sites.json",
                 type: "get",
                 dataType: "json",
                 success: function (data) {
